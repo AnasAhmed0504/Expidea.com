@@ -1,9 +1,9 @@
-from ..common.reservation import IReservation
+from ..common.reservation import IReservationManager
 from ..common.customer_info import CustomerInfo
 from .hotel_common import HotelRequest, Hotel, HotelReservation
 from .marriott_external import MarriottCustomerInfo, MarriottRoom, MarriottHotelAPI
 
-class MarriotHotelManager(IReservation):
+class MarriotHotelManager(IReservationManager):
     def __init__(self):
         pass
 

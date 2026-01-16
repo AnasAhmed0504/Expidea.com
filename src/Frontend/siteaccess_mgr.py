@@ -6,13 +6,18 @@ class SiteAccessManager:
         self.users_mgr = UsersManager()
 
     def print_menu(self):
-        return get_menu_choice("Sysems Access", ["Login", "Sign up"])
+        return get_menu_choice("Sysems Access", ["Login", "Sign up", "Exit"])
     
     def get_accessed_user(self):
         funcs = [self.login, self.signup]
 
         while True:
             choice = self.print_menu()
+            
+            if choice == 3:  # Exit option
+                print("Thank you for using Expedia! Goodbye!")
+                return None
+            
             user = funcs[choice-1]()
 
             if user is not None:

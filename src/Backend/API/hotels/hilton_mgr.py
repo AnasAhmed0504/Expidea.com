@@ -1,10 +1,10 @@
 from .hilton_external import HiltonCustomerInfo, HiltonRoom, HiltonHotelAPI
-from ..common.reservation import IReservation
+from ..common.reservation import IReservationManager
 from ..common.customer_info import CustomerInfo
 from .hotel_common import HotelRequest, Hotel, HotelReservation
 
 
-class HiltonHotelManager(IReservation):
+class HiltonHotelManager(IReservationManager):
     def __init__(self):
         pass
 

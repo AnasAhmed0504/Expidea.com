@@ -11,6 +11,9 @@ class FrontendManager:
             try:
                 user = self.access_site.get_accessed_user()
 
+                if user is None:  # Exit was selected
+                    break
+                
                 if isinstance(user, Customer):
                     CustomerFrontendManager(user).run()
                 else: 

@@ -1,5 +1,5 @@
 from .utils import get_menu_choice
-from..Backend.API.flights.flight_common import FlightRequest, FlightReservation
+from ..Backend.API.flights.flight_common import FlightRequest, FlightReservation
 from ..Backend.API.hotels.hotel_common import HotelRequest, HotelReservation
 from ..Backend.API.common.customer_info import CustomerInfo
 from ..Backend.user import Customer

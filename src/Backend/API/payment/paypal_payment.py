@@ -19,5 +19,5 @@ class PayPalPayment(IPayment):
         self.paypal.card_info = self.card
         return self.paypal.pay_money(money)
     
-    def cancel(self, transaction_id):
+    def cancel_payment(self, transaction_id):
         return self.paypal.cancel_money(transaction_id)
