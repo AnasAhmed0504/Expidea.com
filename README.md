@@ -161,27 +161,9 @@ The system includes custom exceptions for:
 - `ExpediaPaymentException` - Payment processing failures
 - `ExpediaReservationException` - Reservation failures
 
-
-## Testing
-
-To test the application, you can use the pre-loaded test accounts:
-
-**Account 1:**
-- Username: `most`
-- Password: `mo11`
-- Name: Mostafa Saad
-- Email: mostafa@gmail.com
-- Payment Cards: Debit Card, Credit Card
-
-**Account 2:**
-- Username: `belal`
-- Password: `22`
-- Name: Belal Mostafa
-- Email: belal@gmail.com
-
 ## Author
 
-Anas Ahmed
+Anas Yousry
 
 ## Acknowledgments
 
@@ -191,8 +173,8 @@ Anas Ahmed
 ## Contact
 
 For questions or feedback, please contact:
-- GitHub: [@AnasAhmed0504](https://github.com/AnasAhmed0504)
-- Email: AnasAhmad2603@gmail.com
+- GitHub: [@AnasYousry2603](https://github.com/AnasYousry2603)
+- Email: AnasYousry2603@gmail.com
 
 ---
 
